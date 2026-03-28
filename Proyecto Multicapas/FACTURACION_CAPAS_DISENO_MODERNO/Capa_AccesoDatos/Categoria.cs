@@ -1,0 +1,10 @@
+namespace Capa_AccesoDatos.Entidades
+{
+    public class Categoria
+    {
+        public int IdCategoria { get; set; }
+        public string NombreCategoria { get; set; }
+
+        public override string ToString() => NombreCategoria;
+    }
+}

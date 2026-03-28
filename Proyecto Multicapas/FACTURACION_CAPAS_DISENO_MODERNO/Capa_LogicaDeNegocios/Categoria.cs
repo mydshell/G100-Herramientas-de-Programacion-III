@@ -1,0 +1,11 @@
+namespace Pantallas_Sistema_facturación
+{
+    public class Categoria
+    {
+        public int IdCategoria { get; set; }
+        public string NombreCategoria { get; set; }
+
+        public override string ToString() => NombreCategoria;
+    }
+}
+
